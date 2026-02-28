@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swaraj Lakhe | Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- External CSS Files -->
+  <link rel="stylesheet" crossorigin href="/portfolio/assets/index-B4rNq-vT.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">S. Lakhe</div>
+        <a href="mailto:swarajlakhe2005@gmail.com" class="contact-btn">Get In Touch</a>
+    </header>
+
+    <section class="hero">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop" alt="Technology Background">
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">Swaraj Lakhe</h1>
+            <p class="hero-subtitle">ELECTRONICS & COMPUTER SCIENCE</p>
+        </div>
+    </section>
+
+    <section class="intro">
+        <div class="container">
+            <span class="intro-tag">ABOUT ME</span>
+            <h2 class="intro-text">
+                Skilled in sensor integration, smart system prototyping, and applying technical knowledge to real-world IoT & Web projects.
+            </h2>
+        </div>
+    </section>
+
+    <section class="horizontal-section">
+        <div class="cards-wrapper">
+            
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop" alt="Web Development">
+                </div>
+                <div class="card-meta">
+                    <span class="card-tag">Experience</span>
+                    <span>2025 - Present</span>
+                </div>
+                <h3 class="card-title">Godaeon</h3>
+                <p class="card-desc">Web Developer Internship. Designed and developed responsive, user-friendly interfaces with seamless performance.</p>
+            </div>
+            
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1555664424-778a1e5e1b48?q=80&w=2070&auto=format&fit=crop" alt="IoT Research">
+                </div>
+                <div class="card-meta">
+                    <span class="card-tag">Research</span>
+                    <span>Summer 2024</span>
+                </div>
+                <h3 class="card-title">Center for Microsystems</h3>
+                <p class="card-desc">R&D on IoT-based systems. Gained experience in optimizing and prototyping embedded solutions.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?q=80&w=2080&auto=format&fit=crop" alt="Water Quality Tester">
+                </div>
+                <div class="card-meta">
+                    <span class="card-tag">Healthcare Project</span>
+                    <span>Top Performer</span>
+                </div>
+                <h3 class="card-title">Smart Water Tester</h3>
+                <p class="card-desc">IoT device measuring turbidity, and TDS using Arduino UNO. Top performer at IEEE IIITM-ABV Hacksagon and IEEE PUNE Eu-Reka.</p>
+            </div>
+            
+            <div class="card">
+                <div class="card-img">
+                    <img src="/portfolio/media/kairos.jpg" alt="No-Interaction System">
+                </div>
+                <div class="card-meta">
+                    <span class="card-tag">Project</span>
+                    <span>Top Performer</span>
+                </div>
+                <h3 class="card-title">No-Interaction System</h3>
+                <p class="card-desc">IoT device measuring turbidity, and TDS using Arduino UNO. Got selected in top 15 at MYOSA.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=2069&auto=format&fit=crop" alt="Innoventure">
+                </div>
+                <div class="card-meta">
+                    <span class="card-tag">Leadership</span>
+                    <span>2025</span>
+                </div>
+                <h3 class="card-title">Innoventure</h3>
+                <p class="card-desc">Organizing team member for flagship innovation and entrepreneurship events.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="marquee">
+        <div class="marquee-inner">
+             <div class="marquee-text">PYTHON • C • JAVASCRIPT • ARDUINO • RASPBERRY PI • WEB DEVELOPMENT •&nbsp;</div>
+             <div class="marquee-text">PYTHON • C • JAVASCRIPT • ARDUINO • RASPBERRY PI • WEB DEVELOPMENT •&nbsp;</div>
+             <div class="marquee-text">PYTHON • C • JAVASCRIPT • ARDUINO • RASPBERRY PI • WEB DEVELOPMENT •&nbsp;</div>
+        </div>
+    </section>
+
+    <footer>
+        <h2 class="footer-cta">Let's build something crazy.</h2>
+        <a href="mailto:swarajlakhe2005@gmail.com" class="footer-email">swarajlakhe2005@gmail.com</a>
+        <p style="margin-top: 20px; font-size: 0.8rem; opacity: 0.6;">+91 99707 91844 • Nagpur, India</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script>
+        // 1. Initialize Lenis (The "Buttery" Smooth Scroll)
+        const lenis = new Lenis({
+            duration: 1.2,
+            easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+            direction: 'vertical',
+            smooth: true,
+        });
+
+        function raf(time) {
+            lenis.raf(time);
+            requestAnimationFrame(raf);
+        }
+        requestAnimationFrame(raf);
+
+        // 2. GSAP Animations
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Hero Reveal
+        const tl = gsap.timeline();
+        tl.to(".hero-title", {
+            y: 0,
+            opacity: 1,
+            duration: 1.2,
+            ease: "power4.out",
+            delay: 0.2
+        })
+        .to(".hero-subtitle", {
+            y: 0,
+            opacity: 1,
+            duration: 1,
+            ease: "power3.out"
+        }, "-=0.8");
+
+        // Parallax Effect on Hero Image
+        gsap.to(".hero-bg img", {
+            y: "25%",
+            ease: "none",
+            scrollTrigger: {
+                trigger: ".hero",
+                start: "top top",
+                end: "bottom top",
+                scrub: true
+            }
+        });
+
+        // Intro Text Reveal
+        gsap.from(".intro-text", {
+            y: 50,
+            opacity: 0,
+            duration: 1,
+            ease: "power2.out",
+            scrollTrigger: {
+                trigger: ".intro",
+                start: "top 75%", 
+            }
+        });
+
+        // Horizontal Scroll Logic
+        const container = document.querySelector(".horizontal-section");
+        const wrapper = document.querySelector(".cards-wrapper");
+        
+        function getScrollAmount() {
+            let wrapperWidth = wrapper.scrollWidth;
+            return -(wrapperWidth - window.innerWidth);
+        }
+
+        const tween = gsap.to(wrapper, {
+            x: getScrollAmount,
+            duration: 3,
+            ease: "none",
+        });
+
+        ScrollTrigger.create({
+            trigger: ".horizontal-section",
+            start: "top top",
+            end: () => `+=${getScrollAmount() * -1}`,
+            pin: true,
+            animation: tween,
+            scrub: 1,
+            invalidateOnRefresh: true,
+        });
+    </script>
+</body>
+</html>
