@@ -1,0 +1,29 @@
+/* MARQUEE SKILLS */
+.marquee {
+    padding: 120px 0;
+    background: var(--accent-pink);
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.marquee-inner {
+    display: flex;
+    animation: moveText 25s linear infinite;
+}
+
+.marquee-text {
+    font-family: var(--font-serif);
+    font-size: 7vw;
+    text-transform: uppercase;
+    margin-right: 60px;
+    color: #1a1a1a;
+    font-weight: 500;
+}
+
+@keyframes moveText {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
